@@ -41,7 +41,7 @@ Other        9 mins          ▒░░░░░░░░░░░░░░░░
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tirsasaki&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=tirsasaki&label=Followers&color=0e75b6&style=flat" alt="Followers"/>
 </p>
 
 ---
