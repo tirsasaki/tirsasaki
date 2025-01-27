@@ -40,7 +40,7 @@ jobs:
           # Additional plugins
           plugin_achievements: yes       # Display achievements
           plugin_achievements_threshold: C # Display all achievements (A to S)
-          plugin_notable: yes           # Display notable contributions
+          plugin_notable: no           # Display notable contributions
           plugin_activity: no          # Display recent activity
           plugin_people: no            # Display people plugin
           plugin_code: yes              # Display code plugin
