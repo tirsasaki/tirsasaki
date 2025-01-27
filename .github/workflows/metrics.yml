@@ -22,8 +22,8 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
           
-          # General plugin options
-          plugin_lines: yes
+          # Plugin options
+          plugin_lines: yes             # Display lines of code changed
           plugin_habits: yes
           plugin_habits_from: 200       # Use 200 events to compute habits
           plugin_habits_days: 14        # Keep only events from last 14 days
@@ -35,7 +35,6 @@ jobs:
           plugin_isocalendar_duration: full-year  # Set to full-year
           
           plugin_followup: yes          # Display follow-up of issues and pull requests
-          plugin_lines: yes             # Display lines of code changed
           plugin_traffic: yes           # Display repository traffic
           
           # Additional plugins
