@@ -1,0 +1,47 @@
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Options
+          user: tirsasaki
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+          
+          # General plugin options
+          plugin_lines: yes
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
+          
+          # Commit section
+          plugin_isocalendar: yes       # Display isocalendar
+          plugin_isocalendar_duration: full-year  # Set to full-year
+          
+          plugin_followup: yes          # Display follow-up of issues and pull requests
+          plugin_lines: yes             # Display lines of code changed
+          plugin_traffic: yes           # Display repository traffic
+          
+          # Additional plugins
+          plugin_achievements: yes       # Display achievements
+          plugin_achievements_threshold: C # Display all achievements (A to S)
+          plugin_notable: yes           # Display notable contributions
+          plugin_activity: yes          # Display recent activity
+          plugin_people: yes            # Display people plugin
+          plugin_code: yes              # Display code plugin
