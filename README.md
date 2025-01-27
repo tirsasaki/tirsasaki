@@ -22,16 +22,6 @@
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
 </p>
 
-## 🎯 Weekly Development Breakdown
-
-```text
-JavaScript   4 hrs 32 mins   ███████████▓░░░░░░░░░   46.32 %
-React        2 hrs 50 mins   ████████▒░░░░░░░░░░░░   29.02 %
-CSS          1 hr 10 mins    ███▒░░░░░░░░░░░░░░░░░   12.03 %
-JSON         1 hr 5 mins     ███░░░░░░░░░░░░░░░░░░   11.05 %
-Other        9 mins          ▒░░░░░░░░░░░░░░░░░░░░   01.58 %
-```
-
 ## 🤝 Let's Connect!
 
 <p align="center">
@@ -45,4 +35,4 @@ Other        9 mins          ▒░░░░░░░░░░░░░░░░
 </p>
 
 ---
-![Metrics](https://metrics.lecoq.io/tirsasaki?template=classic)
+<img src="https://github.com/TIRSASAKI/TIRSASAKI/blob/main/github-metrics.svg" alt="Metrics" width="100%">
