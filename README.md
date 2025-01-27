@@ -45,3 +45,4 @@ Other        9 mins          ▒░░░░░░░░░░░░░░░░
 </p>
 
 ---
+![Metrics](https://metrics.lecoq.io/tirsasaki?template=classic)
