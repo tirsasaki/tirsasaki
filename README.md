@@ -35,4 +35,4 @@
 </p>
 
 ---
-<img src="https://github.com/TIRSASAKI/TIRSASAKI/blob/main/github-metrics.svg" alt="Metrics" width="100%">
+<img src="https://github.com/TIRSASAKI/TIRSASAKI/blob/main/github-metrics.svg" alt="Metrics" width="60%">
