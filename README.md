@@ -33,6 +33,3 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=tirsasaki&label=Followers&color=0e75b6&style=flat" alt="Followers"/>
 </p>
-
----
-<img src="https://github.com/TIRSASAKI/TIRSASAKI/blob/main/github-metrics.svg" alt="Metrics" width="60%">
