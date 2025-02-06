@@ -4,10 +4,6 @@
 
 <h3 align="center">Welcome to my Connect🌱</h3>
 
-<p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&width=435&lines=Don't+look+at+me;Because;I+am+embarassed" alt="Typing SVG" /></a>
-</p>
-
 <br/>
 
 ## 💻 Tech Stack
